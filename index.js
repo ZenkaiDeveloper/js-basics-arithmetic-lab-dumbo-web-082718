@@ -10,7 +10,9 @@ You should NOT try to redefine any of the above variables.
 let newID = 1000000000 + oldID;
 
 
-let ageIsValid = currentAge.isInteger();
+var ageIsValid = currentAge.isInteger();
+
+
 let randomNumber = Math.random()*20;
 let randomInteger = Math.floor(randomNumber);
 let randomUserID = randomInteger + 1000000000;
